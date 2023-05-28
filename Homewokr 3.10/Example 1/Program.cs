@@ -10,8 +10,6 @@ namespace Example_1
     {
         static void Main(string[] args)
         {
-
-
             Console.Write("Введите целое число: ");
             int userNumber = int.Parse(Console.ReadLine());
 
@@ -22,8 +20,6 @@ namespace Example_1
             else Console.WriteLine("Введенное число нечетное");
 
             Console.ReadLine();
-
-
         }
     }
 }
